@@ -1,11 +1,12 @@
 import "./App.css";
+import Profile from "./UserComponent";
+import { UserBio } from "./UserComponent";
 
 const App = () => {
   return (
     <>
-      <h1>Sudan</h1>
-      <hr />
-      <div> asdfsd</div>
+      <Profile />
+      <UserBio />
     </>
   );
 };

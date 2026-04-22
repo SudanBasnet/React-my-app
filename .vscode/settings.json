@@ -1,0 +1,5 @@
+{
+  "prettier.bracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "js/ts.preferences.renameMatchingJsxTags": false
+}
