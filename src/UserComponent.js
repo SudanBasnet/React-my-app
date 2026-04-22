@@ -1,10 +1,11 @@
-const Profile = () => {
+const Profile = ({ nameProps, bio }) => {
+  //   const { nameProps, bio } = props;
+  //   console.log(props);
   return (
     <div>
-      {" "}
-      <h1>Sudan</h1>
+      <h1>{nameProps}</h1>
       <hr />
-      <div> asdfsd</div>
+      <div> {bio}</div>
     </div>
   );
 };
