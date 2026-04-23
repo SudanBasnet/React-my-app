@@ -5,14 +5,14 @@ import { UserBio } from "./UserComponent";
 import { UserProfile } from "./Userprofile";
 
 const App = () => {
-  const [counter, setCounter] = useState(10);
-  // let counter = 12;
-  const increase = () => {
-    setCounter(counter + 1);
-  };
+  // const [counter, setCounter] = useState(10);
+  // // let counter = 12;
+  // const increase = () => {
+  //   setCounter(counter + 1);
+  // };
 
   return (
-    <div className="user-page" style={{ background: "black", color: "white" }}>
+    <div className="user-page" style={{ color: "white" }}>
       <UserProfile />
       {/* <Sudancomp nameProps={name} bio={bio} /> */}
       {/* <UserBio /> */}
