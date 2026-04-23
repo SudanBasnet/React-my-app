@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Sudancomp from "./UserComponent";
 import { UserBio } from "./UserComponent";
+import { UserProfile } from "./Userprofile";
 
 const App = () => {
   const [counter, setCounter] = useState(10);
@@ -11,13 +12,14 @@ const App = () => {
   };
 
   return (
-    <>
+    <div className="user-page" style={{ background: "black", color: "white" }}>
+      <UserProfile />
       {/* <Sudancomp nameProps={name} bio={bio} /> */}
       {/* <UserBio /> */}
-      <div>{counter}</div>
+      {/* <div>{counter}</div>
       <button onClick={increase}>+</button>
-      <button onClick={() => setCounter(counter - 1)}>-</button>
-    </>
+      <button onClick={() => setCounter(counter - 1)}>-</button> */}
+    </div>
   );
 };
 
