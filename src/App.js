@@ -3,6 +3,7 @@ import "./App.css";
 import Sudancomp from "./UserComponent";
 import { UserBio } from "./UserComponent";
 import { UserProfile } from "./Userprofile";
+import { Myform } from "./MyForm";
 
 const App = () => {
   // const [counter, setCounter] = useState(10);
@@ -12,8 +13,10 @@ const App = () => {
   // };
 
   return (
-    <div className="user-page" style={{ color: "white" }}>
-      <UserProfile />
+    <div>
+      {/* // <div className="user-page" style={{ color: "white" }}> */}
+      {/* <UserProfile /> */}
+      <Myform />
       {/* <Sudancomp nameProps={name} bio={bio} /> */}
       {/* <UserBio /> */}
       {/* <div>{counter}</div>
